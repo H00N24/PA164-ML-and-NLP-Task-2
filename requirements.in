@@ -2,6 +2,7 @@ ipython
 jedi==0.17.2
 ipykernel
 jupyterlab
+ipywidgets
 tqdm
 
 pandas
@@ -14,6 +15,7 @@ lightgbm
 catboost
 gensim
 umap-learn
+sentence-transformers
 
 matplotlib
 

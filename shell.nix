@@ -6,6 +6,7 @@ mkShell {
   name = "pa164-ml-and-nlp-env";
   buildInputs = [
     python38
+    nodejs-12_x
     glibcLocales
   ];
   shellHook = ''

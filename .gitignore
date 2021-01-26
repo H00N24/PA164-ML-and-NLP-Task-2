@@ -1,3 +1,8 @@
+# Data Files
+*.csv
+*.zip
+*.vec
+*.bin
 .direnv
 .DS_Store
 # Byte-compiled / optimized / DLL files
