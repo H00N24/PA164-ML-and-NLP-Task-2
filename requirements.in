@@ -18,6 +18,7 @@ umap-learn
 sentence-transformers
 
 matplotlib
+umap-learn[plot]
 
 black
 nb_black
