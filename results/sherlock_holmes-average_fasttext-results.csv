@@ -1,0 +1,61 @@
+,embedding,name,split,preprocessing,classifier,accuracy,prep_time,clf_time
+0,average_fasttext,Sherlock Holmes,0,None,KNeighborsClassifier,0.4571,0.0009,0.0257
+1,average_fasttext,Sherlock Holmes,0,None,LinearSVC,0.6095,0.0009,0.1337
+2,average_fasttext,Sherlock Holmes,0,None,MLPClassifier,0.619,0.0009,3.0053
+3,average_fasttext,Sherlock Holmes,0,None,CatBoostClassifier,0.581,0.0009,40.6725
+4,average_fasttext,Sherlock Holmes,0,None,LGBMClassifier,0.6667,0.0009,1.1647
+5,average_fasttext,Sherlock Holmes,0,None,XGBClassifier,0.6,0.0009,1.1427
+6,average_fasttext,Sherlock Holmes,0,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.4571,0.15,0.0263
+7,average_fasttext,Sherlock Holmes,0,"PCA(n_components=50, random_state=42)",LinearSVC,0.6,0.15,0.0215
+8,average_fasttext,Sherlock Holmes,0,"PCA(n_components=50, random_state=42)",MLPClassifier,0.6,0.15,1.7512
+9,average_fasttext,Sherlock Holmes,0,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.619,0.15,8.642
+10,average_fasttext,Sherlock Holmes,0,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.6571,0.15,0.3558
+11,average_fasttext,Sherlock Holmes,0,"PCA(n_components=50, random_state=42)",XGBClassifier,0.619,0.15,0.3654
+12,average_fasttext,Sherlock Holmes,1,None,KNeighborsClassifier,0.4667,0.0012,0.0463
+13,average_fasttext,Sherlock Holmes,1,None,LinearSVC,0.5429,0.0012,0.1314
+14,average_fasttext,Sherlock Holmes,1,None,MLPClassifier,0.5714,0.0012,2.5036
+15,average_fasttext,Sherlock Holmes,1,None,CatBoostClassifier,0.5333,0.0012,40.6179
+16,average_fasttext,Sherlock Holmes,1,None,LGBMClassifier,0.5714,0.0012,1.1796
+17,average_fasttext,Sherlock Holmes,1,None,XGBClassifier,0.5429,0.0012,1.1407
+18,average_fasttext,Sherlock Holmes,1,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.4667,0.2767,0.0315
+19,average_fasttext,Sherlock Holmes,1,"PCA(n_components=50, random_state=42)",LinearSVC,0.5143,0.2767,0.0228
+20,average_fasttext,Sherlock Holmes,1,"PCA(n_components=50, random_state=42)",MLPClassifier,0.5429,0.2767,1.7928
+21,average_fasttext,Sherlock Holmes,1,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.5429,0.2767,8.5481
+22,average_fasttext,Sherlock Holmes,1,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.5333,0.2767,0.3488
+23,average_fasttext,Sherlock Holmes,1,"PCA(n_components=50, random_state=42)",XGBClassifier,0.5619,0.2767,0.3636
+24,average_fasttext,Sherlock Holmes,2,None,KNeighborsClassifier,0.5673,0.0009,0.045
+25,average_fasttext,Sherlock Holmes,2,None,LinearSVC,0.6538,0.0009,0.1335
+26,average_fasttext,Sherlock Holmes,2,None,MLPClassifier,0.6635,0.0009,3.0126
+27,average_fasttext,Sherlock Holmes,2,None,CatBoostClassifier,0.6731,0.0009,40.6622
+28,average_fasttext,Sherlock Holmes,2,None,LGBMClassifier,0.6346,0.0009,1.1801
+29,average_fasttext,Sherlock Holmes,2,None,XGBClassifier,0.6154,0.0009,1.1491
+30,average_fasttext,Sherlock Holmes,2,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.5577,0.2834,0.0251
+31,average_fasttext,Sherlock Holmes,2,"PCA(n_components=50, random_state=42)",LinearSVC,0.6346,0.2834,0.0143
+32,average_fasttext,Sherlock Holmes,2,"PCA(n_components=50, random_state=42)",MLPClassifier,0.6442,0.2834,1.0095
+33,average_fasttext,Sherlock Holmes,2,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.6923,0.2834,8.2089
+34,average_fasttext,Sherlock Holmes,2,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.6058,0.2834,0.3424
+35,average_fasttext,Sherlock Holmes,2,"PCA(n_components=50, random_state=42)",XGBClassifier,0.5673,0.2834,0.3727
+36,average_fasttext,Sherlock Holmes,3,None,KNeighborsClassifier,0.4808,0.0007,0.0495
+37,average_fasttext,Sherlock Holmes,3,None,LinearSVC,0.5577,0.0007,0.1367
+38,average_fasttext,Sherlock Holmes,3,None,MLPClassifier,0.625,0.0007,2.6959
+39,average_fasttext,Sherlock Holmes,3,None,CatBoostClassifier,0.5769,0.0007,40.7739
+40,average_fasttext,Sherlock Holmes,3,None,LGBMClassifier,0.5769,0.0007,1.2507
+41,average_fasttext,Sherlock Holmes,3,None,XGBClassifier,0.5385,0.0007,1.2112
+42,average_fasttext,Sherlock Holmes,3,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.4423,0.1323,0.0153
+43,average_fasttext,Sherlock Holmes,3,"PCA(n_components=50, random_state=42)",LinearSVC,0.5288,0.1323,0.0148
+44,average_fasttext,Sherlock Holmes,3,"PCA(n_components=50, random_state=42)",MLPClassifier,0.5962,0.1323,1.0544
+45,average_fasttext,Sherlock Holmes,3,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.5577,0.1323,8.0624
+46,average_fasttext,Sherlock Holmes,3,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.5577,0.1323,0.359
+47,average_fasttext,Sherlock Holmes,3,"PCA(n_components=50, random_state=42)",XGBClassifier,0.4904,0.1323,0.3637
+48,average_fasttext,Sherlock Holmes,4,None,KNeighborsClassifier,0.5769,0.0011,0.0501
+49,average_fasttext,Sherlock Holmes,4,None,LinearSVC,0.6538,0.0011,0.1358
+50,average_fasttext,Sherlock Holmes,4,None,MLPClassifier,0.5962,0.0011,2.7647
+51,average_fasttext,Sherlock Holmes,4,None,CatBoostClassifier,0.5865,0.0011,39.5655
+52,average_fasttext,Sherlock Holmes,4,None,LGBMClassifier,0.5096,0.0011,1.2429
+53,average_fasttext,Sherlock Holmes,4,None,XGBClassifier,0.5192,0.0011,1.1625
+54,average_fasttext,Sherlock Holmes,4,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.5192,0.1227,0.0504
+55,average_fasttext,Sherlock Holmes,4,"PCA(n_components=50, random_state=42)",LinearSVC,0.625,0.1227,0.0239
+56,average_fasttext,Sherlock Holmes,4,"PCA(n_components=50, random_state=42)",MLPClassifier,0.6154,0.1227,2.2623
+57,average_fasttext,Sherlock Holmes,4,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.625,0.1227,8.4145
+58,average_fasttext,Sherlock Holmes,4,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.6154,0.1227,0.3611
+59,average_fasttext,Sherlock Holmes,4,"PCA(n_components=50, random_state=42)",XGBClassifier,0.5192,0.1227,0.3753

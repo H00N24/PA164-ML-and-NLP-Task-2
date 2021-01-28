@@ -1,0 +1,61 @@
+,embedding,name,split,preprocessing,classifier,accuracy,prep_time,clf_time
+0,tfidf_wosigni,Sherlock Holmes,0,None,KNeighborsClassifier,0.7429,0.0,0.0172
+1,tfidf_wosigni,Sherlock Holmes,0,None,LinearSVC,0.8571,0.0,0.0141
+2,tfidf_wosigni,Sherlock Holmes,0,None,MLPClassifier,0.8381,0.0,16.9337
+3,tfidf_wosigni,Sherlock Holmes,0,None,MultinomialNB,0.781,0.0,0.0058
+4,tfidf_wosigni,Sherlock Holmes,0,None,ComplementNB,0.8762,0.0,0.0068
+5,tfidf_wosigni,Sherlock Holmes,0,None,LGBMClassifier,0.5333,0.0,0.5626
+6,tfidf_wosigni,Sherlock Holmes,0,None,XGBClassifier,0.581,0.0,1.3849
+7,tfidf_wosigni,Sherlock Holmes,0,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.6857,0.2942,0.0297
+8,tfidf_wosigni,Sherlock Holmes,0,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.7238,0.2942,0.0199
+9,tfidf_wosigni,Sherlock Holmes,0,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.7143,0.2942,1.6271
+10,tfidf_wosigni,Sherlock Holmes,0,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.619,0.2942,0.4502
+11,tfidf_wosigni,Sherlock Holmes,0,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.6,0.2942,0.3413
+12,tfidf_wosigni,Sherlock Holmes,1,None,KNeighborsClassifier,0.7048,0.0,0.0166
+13,tfidf_wosigni,Sherlock Holmes,1,None,LinearSVC,0.7619,0.0,0.0134
+14,tfidf_wosigni,Sherlock Holmes,1,None,MLPClassifier,0.8,0.0,16.6975
+15,tfidf_wosigni,Sherlock Holmes,1,None,MultinomialNB,0.7048,0.0,0.007
+16,tfidf_wosigni,Sherlock Holmes,1,None,ComplementNB,0.781,0.0,0.0069
+17,tfidf_wosigni,Sherlock Holmes,1,None,LGBMClassifier,0.5619,0.0,0.5351
+18,tfidf_wosigni,Sherlock Holmes,1,None,XGBClassifier,0.4952,0.0,1.352
+19,tfidf_wosigni,Sherlock Holmes,1,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.6762,0.468,0.0318
+20,tfidf_wosigni,Sherlock Holmes,1,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.6476,0.468,0.0203
+21,tfidf_wosigni,Sherlock Holmes,1,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.6286,0.468,1.8485
+22,tfidf_wosigni,Sherlock Holmes,1,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.5429,0.468,0.4464
+23,tfidf_wosigni,Sherlock Holmes,1,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.5524,0.468,0.3413
+24,tfidf_wosigni,Sherlock Holmes,2,None,KNeighborsClassifier,0.7981,0.0,0.0177
+25,tfidf_wosigni,Sherlock Holmes,2,None,LinearSVC,0.8077,0.0,0.0142
+26,tfidf_wosigni,Sherlock Holmes,2,None,MLPClassifier,0.8462,0.0,18.8998
+27,tfidf_wosigni,Sherlock Holmes,2,None,MultinomialNB,0.75,0.0,0.0071
+28,tfidf_wosigni,Sherlock Holmes,2,None,ComplementNB,0.8077,0.0,0.0176
+29,tfidf_wosigni,Sherlock Holmes,2,None,LGBMClassifier,0.5288,0.0,0.5478
+30,tfidf_wosigni,Sherlock Holmes,2,None,XGBClassifier,0.5385,0.0,1.3574
+31,tfidf_wosigni,Sherlock Holmes,2,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.6635,0.3299,0.0412
+32,tfidf_wosigni,Sherlock Holmes,2,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.6827,0.3299,0.04
+33,tfidf_wosigni,Sherlock Holmes,2,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.7019,0.3299,2.3183
+34,tfidf_wosigni,Sherlock Holmes,2,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.6058,0.3299,0.4299
+35,tfidf_wosigni,Sherlock Holmes,2,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.5192,0.3299,0.3492
+36,tfidf_wosigni,Sherlock Holmes,3,None,KNeighborsClassifier,0.7115,0.0,0.0172
+37,tfidf_wosigni,Sherlock Holmes,3,None,LinearSVC,0.7981,0.0,0.0136
+38,tfidf_wosigni,Sherlock Holmes,3,None,MLPClassifier,0.75,0.0,17.7703
+39,tfidf_wosigni,Sherlock Holmes,3,None,MultinomialNB,0.6442,0.0,0.0063
+40,tfidf_wosigni,Sherlock Holmes,3,None,ComplementNB,0.7308,0.0,0.0061
+41,tfidf_wosigni,Sherlock Holmes,3,None,LGBMClassifier,0.5865,0.0,0.5676
+42,tfidf_wosigni,Sherlock Holmes,3,None,XGBClassifier,0.5769,0.0,1.3788
+43,tfidf_wosigni,Sherlock Holmes,3,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.6442,0.3085,0.0315
+44,tfidf_wosigni,Sherlock Holmes,3,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.6538,0.3085,0.0185
+45,tfidf_wosigni,Sherlock Holmes,3,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.6346,0.3085,1.6134
+46,tfidf_wosigni,Sherlock Holmes,3,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.5577,0.3085,0.3891
+47,tfidf_wosigni,Sherlock Holmes,3,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.5962,0.3085,0.3416
+48,tfidf_wosigni,Sherlock Holmes,4,None,KNeighborsClassifier,0.7596,0.0,0.0175
+49,tfidf_wosigni,Sherlock Holmes,4,None,LinearSVC,0.8173,0.0,0.0148
+50,tfidf_wosigni,Sherlock Holmes,4,None,MLPClassifier,0.8077,0.0,18.7303
+51,tfidf_wosigni,Sherlock Holmes,4,None,MultinomialNB,0.75,0.0,0.0102
+52,tfidf_wosigni,Sherlock Holmes,4,None,ComplementNB,0.8654,0.0,0.0059
+53,tfidf_wosigni,Sherlock Holmes,4,None,LGBMClassifier,0.5385,0.0,0.5439
+54,tfidf_wosigni,Sherlock Holmes,4,None,XGBClassifier,0.625,0.0,1.3759
+55,tfidf_wosigni,Sherlock Holmes,4,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.6346,0.4455,0.0352
+56,tfidf_wosigni,Sherlock Holmes,4,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.6827,0.4455,0.0196
+57,tfidf_wosigni,Sherlock Holmes,4,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.6538,0.4455,2.0716
+58,tfidf_wosigni,Sherlock Holmes,4,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.5385,0.4455,0.4155
+59,tfidf_wosigni,Sherlock Holmes,4,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.5673,0.4455,0.3546

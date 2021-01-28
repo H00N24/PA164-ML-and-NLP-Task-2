@@ -1,0 +1,61 @@
+,embedding,name,split,preprocessing,classifier,accuracy,prep_time,clf_time
+0,fasttextidf_wosigni,Agatha Christie,0,None,KNeighborsClassifier,0.7963,0.0,0.0281
+1,fasttextidf_wosigni,Agatha Christie,0,None,LinearSVC,0.8519,0.0,0.1864
+2,fasttextidf_wosigni,Agatha Christie,0,None,MLPClassifier,0.8519,0.0,1.4625
+3,fasttextidf_wosigni,Agatha Christie,0,None,CatBoostClassifier,0.8519,0.0,29.2998
+4,fasttextidf_wosigni,Agatha Christie,0,None,LGBMClassifier,0.8704,0.0,0.2963
+5,fasttextidf_wosigni,Agatha Christie,0,None,XGBClassifier,0.7963,0.0,0.3388
+6,fasttextidf_wosigni,Agatha Christie,0,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.7222,0.0583,0.014
+7,fasttextidf_wosigni,Agatha Christie,0,"PCA(n_components=50, random_state=42)",LinearSVC,0.8704,0.0583,0.0088
+8,fasttextidf_wosigni,Agatha Christie,0,"PCA(n_components=50, random_state=42)",MLPClassifier,0.8519,0.0583,1.061
+9,fasttextidf_wosigni,Agatha Christie,0,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.8704,0.0583,4.5353
+10,fasttextidf_wosigni,Agatha Christie,0,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.7963,0.0583,0.1148
+11,fasttextidf_wosigni,Agatha Christie,0,"PCA(n_components=50, random_state=42)",XGBClassifier,0.8148,0.0583,0.1395
+12,fasttextidf_wosigni,Agatha Christie,1,None,KNeighborsClassifier,0.7358,0.0,0.0145
+13,fasttextidf_wosigni,Agatha Christie,1,None,LinearSVC,0.8679,0.0,0.1641
+14,fasttextidf_wosigni,Agatha Christie,1,None,MLPClassifier,0.8491,0.0,1.3897
+15,fasttextidf_wosigni,Agatha Christie,1,None,CatBoostClassifier,0.7736,0.0,30.1587
+16,fasttextidf_wosigni,Agatha Christie,1,None,LGBMClassifier,0.7736,0.0,0.3015
+17,fasttextidf_wosigni,Agatha Christie,1,None,XGBClassifier,0.7547,0.0,0.3457
+18,fasttextidf_wosigni,Agatha Christie,1,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.6792,0.1754,0.009
+19,fasttextidf_wosigni,Agatha Christie,1,"PCA(n_components=50, random_state=42)",LinearSVC,0.7925,0.1754,0.0053
+20,fasttextidf_wosigni,Agatha Christie,1,"PCA(n_components=50, random_state=42)",MLPClassifier,0.8491,0.1754,0.6195
+21,fasttextidf_wosigni,Agatha Christie,1,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.8113,0.1754,5.3102
+22,fasttextidf_wosigni,Agatha Christie,1,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.7925,0.1754,0.0893
+23,fasttextidf_wosigni,Agatha Christie,1,"PCA(n_components=50, random_state=42)",XGBClassifier,0.7358,0.1754,0.1325
+24,fasttextidf_wosigni,Agatha Christie,2,None,KNeighborsClassifier,0.7925,0.0,0.0141
+25,fasttextidf_wosigni,Agatha Christie,2,None,LinearSVC,0.8302,0.0,0.1719
+26,fasttextidf_wosigni,Agatha Christie,2,None,MLPClassifier,0.8113,0.0,1.4231
+27,fasttextidf_wosigni,Agatha Christie,2,None,CatBoostClassifier,0.7925,0.0,29.285
+28,fasttextidf_wosigni,Agatha Christie,2,None,LGBMClassifier,0.7736,0.0,0.2881
+29,fasttextidf_wosigni,Agatha Christie,2,None,XGBClassifier,0.7358,0.0,0.3261
+30,fasttextidf_wosigni,Agatha Christie,2,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.7358,0.1271,0.0227
+31,fasttextidf_wosigni,Agatha Christie,2,"PCA(n_components=50, random_state=42)",LinearSVC,0.8302,0.1271,0.0071
+32,fasttextidf_wosigni,Agatha Christie,2,"PCA(n_components=50, random_state=42)",MLPClassifier,0.7925,0.1271,0.5831
+33,fasttextidf_wosigni,Agatha Christie,2,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.7547,0.1271,4.8679
+34,fasttextidf_wosigni,Agatha Christie,2,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.6604,0.1271,0.0981
+35,fasttextidf_wosigni,Agatha Christie,2,"PCA(n_components=50, random_state=42)",XGBClassifier,0.6792,0.1271,0.1325
+36,fasttextidf_wosigni,Agatha Christie,3,None,KNeighborsClassifier,0.6792,0.0,0.026
+37,fasttextidf_wosigni,Agatha Christie,3,None,LinearSVC,0.8679,0.0,0.1649
+38,fasttextidf_wosigni,Agatha Christie,3,None,MLPClassifier,0.9057,0.0,1.9904
+39,fasttextidf_wosigni,Agatha Christie,3,None,CatBoostClassifier,0.7736,0.0,29.1485
+40,fasttextidf_wosigni,Agatha Christie,3,None,LGBMClassifier,0.7547,0.0,0.294
+41,fasttextidf_wosigni,Agatha Christie,3,None,XGBClassifier,0.7736,0.0,0.3456
+42,fasttextidf_wosigni,Agatha Christie,3,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.7358,0.1007,0.0412
+43,fasttextidf_wosigni,Agatha Christie,3,"PCA(n_components=50, random_state=42)",LinearSVC,0.7925,0.1007,0.0064
+44,fasttextidf_wosigni,Agatha Christie,3,"PCA(n_components=50, random_state=42)",MLPClassifier,0.7925,0.1007,0.8559
+45,fasttextidf_wosigni,Agatha Christie,3,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.6792,0.1007,4.8487
+46,fasttextidf_wosigni,Agatha Christie,3,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.7736,0.1007,0.1069
+47,fasttextidf_wosigni,Agatha Christie,3,"PCA(n_components=50, random_state=42)",XGBClassifier,0.717,0.1007,0.1381
+48,fasttextidf_wosigni,Agatha Christie,4,None,KNeighborsClassifier,0.6981,0.0,0.0147
+49,fasttextidf_wosigni,Agatha Christie,4,None,LinearSVC,0.9057,0.0,0.1962
+50,fasttextidf_wosigni,Agatha Christie,4,None,MLPClassifier,0.9057,0.0,1.8634
+51,fasttextidf_wosigni,Agatha Christie,4,None,CatBoostClassifier,0.8113,0.0,29.8124
+52,fasttextidf_wosigni,Agatha Christie,4,None,LGBMClassifier,0.7925,0.0,0.289
+53,fasttextidf_wosigni,Agatha Christie,4,None,XGBClassifier,0.8113,0.0,0.3411
+54,fasttextidf_wosigni,Agatha Christie,4,"PCA(n_components=50, random_state=42)",KNeighborsClassifier,0.6981,0.1069,0.0388
+55,fasttextidf_wosigni,Agatha Christie,4,"PCA(n_components=50, random_state=42)",LinearSVC,0.9057,0.1069,0.0106
+56,fasttextidf_wosigni,Agatha Christie,4,"PCA(n_components=50, random_state=42)",MLPClassifier,0.8868,0.1069,1.3802
+57,fasttextidf_wosigni,Agatha Christie,4,"PCA(n_components=50, random_state=42)",CatBoostClassifier,0.9057,0.1069,6.0457
+58,fasttextidf_wosigni,Agatha Christie,4,"PCA(n_components=50, random_state=42)",LGBMClassifier,0.8679,0.1069,0.1077
+59,fasttextidf_wosigni,Agatha Christie,4,"PCA(n_components=50, random_state=42)",XGBClassifier,0.8113,0.1069,0.1366

@@ -1,0 +1,61 @@
+,embedding,name,split,preprocessing,classifier,accuracy,prep_time,clf_time
+0,tfidf,Agatha Christie,0,None,KNeighborsClassifier,0.963,0.0,0.0124
+1,tfidf,Agatha Christie,0,None,LinearSVC,0.9815,0.0,0.0118
+2,tfidf,Agatha Christie,0,None,MLPClassifier,0.9815,0.0,16.2133
+3,tfidf,Agatha Christie,0,None,MultinomialNB,0.9074,0.0,0.0069
+4,tfidf,Agatha Christie,0,None,ComplementNB,0.9815,0.0,0.0064
+5,tfidf,Agatha Christie,0,None,LGBMClassifier,0.963,0.0,0.3453
+6,tfidf,Agatha Christie,0,None,XGBClassifier,0.963,0.0,0.734
+7,tfidf,Agatha Christie,0,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.963,0.2602,0.0156
+8,tfidf,Agatha Christie,0,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9815,0.2602,0.0063
+9,tfidf,Agatha Christie,0,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,1.0,0.2602,0.6015
+10,tfidf,Agatha Christie,0,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.963,0.2602,0.2035
+11,tfidf,Agatha Christie,0,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.9444,0.2602,0.0874
+12,tfidf,Agatha Christie,1,None,KNeighborsClassifier,1.0,0.0,0.0125
+13,tfidf,Agatha Christie,1,None,LinearSVC,0.9811,0.0,0.0127
+14,tfidf,Agatha Christie,1,None,MLPClassifier,1.0,0.0,15.3877
+15,tfidf,Agatha Christie,1,None,MultinomialNB,0.9245,0.0,0.0066
+16,tfidf,Agatha Christie,1,None,ComplementNB,0.9434,0.0,0.0064
+17,tfidf,Agatha Christie,1,None,LGBMClassifier,0.9434,0.0,0.3958
+18,tfidf,Agatha Christie,1,None,XGBClassifier,0.8868,0.0,0.7182
+19,tfidf,Agatha Christie,1,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,1.0,0.273,0.021
+20,tfidf,Agatha Christie,1,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9623,0.273,0.0079
+21,tfidf,Agatha Christie,1,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.9811,0.273,1.0628
+22,tfidf,Agatha Christie,1,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9434,0.273,0.27
+23,tfidf,Agatha Christie,1,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.9245,0.273,0.0917
+24,tfidf,Agatha Christie,2,None,KNeighborsClassifier,1.0,0.0,0.0127
+25,tfidf,Agatha Christie,2,None,LinearSVC,0.9434,0.0,0.0121
+26,tfidf,Agatha Christie,2,None,MLPClassifier,0.9811,0.0,16.3455
+27,tfidf,Agatha Christie,2,None,MultinomialNB,0.8868,0.0,0.0066
+28,tfidf,Agatha Christie,2,None,ComplementNB,0.9623,0.0,0.0063
+29,tfidf,Agatha Christie,2,None,LGBMClassifier,0.9434,0.0,0.3707
+30,tfidf,Agatha Christie,2,None,XGBClassifier,0.9623,0.0,0.7188
+31,tfidf,Agatha Christie,2,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9623,0.3582,0.0224
+32,tfidf,Agatha Christie,2,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9434,0.3582,0.0079
+33,tfidf,Agatha Christie,2,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.9623,0.3582,1.0388
+34,tfidf,Agatha Christie,2,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9623,0.3582,0.2105
+35,tfidf,Agatha Christie,2,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.9623,0.3582,0.087
+36,tfidf,Agatha Christie,3,None,KNeighborsClassifier,1.0,0.0,0.012
+37,tfidf,Agatha Christie,3,None,LinearSVC,1.0,0.0,0.0106
+38,tfidf,Agatha Christie,3,None,MLPClassifier,1.0,0.0,15.5909
+39,tfidf,Agatha Christie,3,None,MultinomialNB,0.9434,0.0,0.0104
+40,tfidf,Agatha Christie,3,None,ComplementNB,1.0,0.0,0.0177
+41,tfidf,Agatha Christie,3,None,LGBMClassifier,0.9623,0.0,0.3418
+42,tfidf,Agatha Christie,3,None,XGBClassifier,0.9245,0.0,0.6951
+43,tfidf,Agatha Christie,3,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9811,0.225,0.0131
+44,tfidf,Agatha Christie,3,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,1.0,0.225,0.0081
+45,tfidf,Agatha Christie,3,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,1.0,0.225,1.1037
+46,tfidf,Agatha Christie,3,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9811,0.225,0.2176
+47,tfidf,Agatha Christie,3,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,1.0,0.225,0.0918
+48,tfidf,Agatha Christie,4,None,KNeighborsClassifier,1.0,0.0,0.0126
+49,tfidf,Agatha Christie,4,None,LinearSVC,0.9811,0.0,0.0113
+50,tfidf,Agatha Christie,4,None,MLPClassifier,1.0,0.0,16.1264
+51,tfidf,Agatha Christie,4,None,MultinomialNB,0.9245,0.0,0.0061
+52,tfidf,Agatha Christie,4,None,ComplementNB,0.9623,0.0,0.0058
+53,tfidf,Agatha Christie,4,None,LGBMClassifier,0.9811,0.0,0.3598
+54,tfidf,Agatha Christie,4,None,XGBClassifier,0.9811,0.0,0.7024
+55,tfidf,Agatha Christie,4,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9623,0.2767,0.0444
+56,tfidf,Agatha Christie,4,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9811,0.2767,0.0108
+57,tfidf,Agatha Christie,4,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.9811,0.2767,1.3361
+58,tfidf,Agatha Christie,4,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9623,0.2767,0.2163
+59,tfidf,Agatha Christie,4,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.9811,0.2767,0.0847

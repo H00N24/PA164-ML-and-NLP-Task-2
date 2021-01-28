@@ -16,6 +16,7 @@ catboost
 gensim
 umap-learn
 sentence-transformers
+baycomp
 
 matplotlib
 umap-learn[plot]

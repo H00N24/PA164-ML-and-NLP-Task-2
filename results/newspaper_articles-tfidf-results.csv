@@ -1,0 +1,61 @@
+,embedding,name,split,preprocessing,classifier,accuracy,prep_time,clf_time
+0,tfidf,Newspapers,0,None,KNeighborsClassifier,0.9535,0.0,0.5443
+1,tfidf,Newspapers,0,None,LinearSVC,0.9777,0.0,0.1254
+2,tfidf,Newspapers,0,None,MLPClassifier,0.9836,0.0,185.2854
+3,tfidf,Newspapers,0,None,MultinomialNB,0.9377,0.0,0.0193
+4,tfidf,Newspapers,0,None,ComplementNB,0.9692,0.0,0.0214
+5,tfidf,Newspapers,0,None,LGBMClassifier,0.9554,0.0,8.6064
+6,tfidf,Newspapers,0,None,XGBClassifier,0.9489,0.0,11.2373
+7,tfidf,Newspapers,0,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9535,1.2847,0.3779
+8,tfidf,Newspapers,0,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9633,1.2847,0.1004
+9,tfidf,Newspapers,0,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.96,1.2847,21.3934
+10,tfidf,Newspapers,0,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9646,1.2847,1.3965
+11,tfidf,Newspapers,0,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.9626,1.2847,4.6866
+12,tfidf,Newspapers,1,None,KNeighborsClassifier,0.9495,0.0,0.5795
+13,tfidf,Newspapers,1,None,LinearSVC,0.9758,0.0,0.1254
+14,tfidf,Newspapers,1,None,MLPClassifier,0.9803,0.0,210.2995
+15,tfidf,Newspapers,1,None,MultinomialNB,0.9338,0.0,0.0205
+16,tfidf,Newspapers,1,None,ComplementNB,0.9646,0.0,0.0207
+17,tfidf,Newspapers,1,None,LGBMClassifier,0.9397,0.0,8.6207
+18,tfidf,Newspapers,1,None,XGBClassifier,0.9338,0.0,11.0251
+19,tfidf,Newspapers,1,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9541,1.2289,0.3895
+20,tfidf,Newspapers,1,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9567,1.2289,0.1202
+21,tfidf,Newspapers,1,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.962,1.2289,20.0719
+22,tfidf,Newspapers,1,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9574,1.2289,1.3745
+23,tfidf,Newspapers,1,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.96,1.2289,4.5656
+24,tfidf,Newspapers,2,None,KNeighborsClassifier,0.9502,0.0,0.5673
+25,tfidf,Newspapers,2,None,LinearSVC,0.9777,0.0,0.1285
+26,tfidf,Newspapers,2,None,MLPClassifier,0.9771,0.0,215.3313
+27,tfidf,Newspapers,2,None,MultinomialNB,0.9312,0.0,0.0187
+28,tfidf,Newspapers,2,None,ComplementNB,0.9633,0.0,0.0198
+29,tfidf,Newspapers,2,None,LGBMClassifier,0.9574,0.0,8.4877
+30,tfidf,Newspapers,2,None,XGBClassifier,0.9515,0.0,11.1109
+31,tfidf,Newspapers,2,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9522,1.1176,0.3799
+32,tfidf,Newspapers,2,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9541,1.1176,0.1005
+33,tfidf,Newspapers,2,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.9587,1.1176,21.1562
+34,tfidf,Newspapers,2,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9574,1.1176,1.3954
+35,tfidf,Newspapers,2,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.9567,1.1176,4.5003
+36,tfidf,Newspapers,3,None,KNeighborsClassifier,0.9515,0.0,0.5894
+37,tfidf,Newspapers,3,None,LinearSVC,0.977,0.0,0.1206
+38,tfidf,Newspapers,3,None,MLPClassifier,0.9777,0.0,216.772
+39,tfidf,Newspapers,3,None,MultinomialNB,0.9423,0.0,0.0186
+40,tfidf,Newspapers,3,None,ComplementNB,0.9711,0.0,0.0179
+41,tfidf,Newspapers,3,None,LGBMClassifier,0.96,0.0,8.6354
+42,tfidf,Newspapers,3,None,XGBClassifier,0.958,0.0,11.1461
+43,tfidf,Newspapers,3,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9515,1.1359,0.3587
+44,tfidf,Newspapers,3,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.96,1.1359,0.1023
+45,tfidf,Newspapers,3,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.9633,1.1359,21.066
+46,tfidf,Newspapers,3,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9613,1.1359,1.4671
+47,tfidf,Newspapers,3,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.9593,1.1359,4.6789
+48,tfidf,Newspapers,4,None,KNeighborsClassifier,0.9593,0.0,0.569
+49,tfidf,Newspapers,4,None,LinearSVC,0.9797,0.0,0.1168
+50,tfidf,Newspapers,4,None,MLPClassifier,0.9823,0.0,209.6079
+51,tfidf,Newspapers,4,None,MultinomialNB,0.9397,0.0,0.0201
+52,tfidf,Newspapers,4,None,ComplementNB,0.9692,0.0,0.0189
+53,tfidf,Newspapers,4,None,LGBMClassifier,0.9574,0.0,8.7128
+54,tfidf,Newspapers,4,None,XGBClassifier,0.9462,0.0,11.0858
+55,tfidf,Newspapers,4,"TruncatedSVD(n_components=50, random_state=42)",KNeighborsClassifier,0.9574,1.1409,0.3796
+56,tfidf,Newspapers,4,"TruncatedSVD(n_components=50, random_state=42)",LinearSVC,0.9561,1.1409,0.1068
+57,tfidf,Newspapers,4,"TruncatedSVD(n_components=50, random_state=42)",MLPClassifier,0.9633,1.1409,18.5076
+58,tfidf,Newspapers,4,"TruncatedSVD(n_components=50, random_state=42)",LGBMClassifier,0.9639,1.1409,1.9343
+59,tfidf,Newspapers,4,"TruncatedSVD(n_components=50, random_state=42)",XGBClassifier,0.96,1.1409,6.2246
