@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Project Titlepage Modified (v 0.1) by rcx
+%
+% Original Source: http://www.howtotex.com
+% Date: February 2014
+% 
+% This is a title page template which be used for articles & reports.
+% 
+% This is the modified version of the original Latex template from
+% aforementioned website.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{llncs} %{article}
+\usepackage[a4paper]{geometry}
+\usepackage[myheadings]{fullpage}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
+\usepackage[T1]{fontenc}
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{fourier}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\usepackage[english]{babel}
+\usepackage{sectsty}
+\usepackage{url, lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\restylefloat{table}
+
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+
+\begin{document}
+
+\title{Letter dataset: Results of Text mining project 2020}
+\date{}
+
+\author{Your name and UCO}
+\institute{PA164 and KD Lab FI MU Brno}
+\maketitle
+
+\begin{abstract}
+This work addresses the problem of ...
+
+\end{abstract}
+
+\section{Data set and task description}
+
+\subsection{Data set}
+link to the data set, number of instances, features, missing values etc , data preparation (e.g. transformation into form)
+
+\subsection{Data set reduction}
+
+\subsubsection{Feature reduction}
+introduce the learning curve, explain what number of feature you will use and why
+
+\subsubsection{Other reduction}
+voluntary; only in the case that you need eg. limit the number of instances
+
+\section{Description of the method used}
+\subsection{General}
+what classifiers (CLF) and what outlier detection (OD) methods you used.
+Do not describe them.
+
+\subsection{Document-term matrix}
+what representation (pre-processing, PP) you used (very likely binary, TF, TF/IDF)
+
+\section{Results}
+\subsection{Overview}
+general description of your results
+
+\subsection{Comparison of different combinations of (PP+OD+CLF)}
+
+including graphs and statistical tests.
+
+Which combination was the best in term of accuracy.
+
+Is that combination PP+OD+CLF significantly better that the others?
+%https://is.muni.cz/auth/el/fi/podzim2020/PA164/projekt/Statistical_Comparison_of_Classifiers_over_Multiple_Data_Sets.pdf}
+
+\subsection{Discussion} 
+including discussion of the outliers that you found interesting
+
+\section{Conclusion}
+
+\section{References}
+only if you employed something uncommon.
+\end{document}
